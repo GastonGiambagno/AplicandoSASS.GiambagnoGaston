@@ -1,0 +1,54 @@
+@import "../base/variables";
+
+header {
+    background-color: $bg-color-header;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-family: "FuenteHeader";
+    font-size: 1.3rem;
+
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        img {
+            width: 25%;
+            padding-left: 2rem;
+        }
+       
+        nav {
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li {
+                    display: inline-block;
+                    padding-right: 2rem;
+                    list-style-type: none;
+
+                    a {
+                        padding: 1rem 1rem;
+                        transition: all 0.5s;
+                        border-radius: 1rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: end;
+                        text-decoration: none;
+                        color: antiquewhite;
+
+                        &:hover {
+                            background: antiquewhite;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }      
+}

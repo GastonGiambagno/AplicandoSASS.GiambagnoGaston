@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+  color: antiquewhite;
+  font-size: large;
+  line-height: 1.5;
+  font-family: "FuenteHeader";
+  background-image: url(../multimedia/imagen-master1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgb(27, 27, 27);
+  padding: 1rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-family: "FuenteHeader";
+  font-size: 1.3rem;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header div img {
+  width: 25%;
+  padding-left: 2rem;
+}
+header div nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header div nav ul li {
+  display: inline-block;
+  padding-right: 2rem;
+  list-style-type: none;
+}
+header div nav ul li a {
+  padding: 1rem 1rem;
+  transition: all 0.5s;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-decoration: none;
+  color: antiquewhite;
+}
+header div nav ul li a:hover {
+  background: antiquewhite;
+  color: black;
+}
+
+footer {
+  background-color: rgb(27, 27, 27);
+  color: antiquewhite;
+  padding: 2rem 0;
+  margin-top: 5rem;
+}
+footer div {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+footer div div {
+  display: flex;
+}
+footer div div img {
+  width: 25%;
+}
+footer div div nav {
+  display: flex;
+  align-items: flex-end;
+}
+footer div div nav .icono-instagram {
+  background-color: #3b5998;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+footer div div nav .icono-facebook {
+  background-color: #3f729b;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+footer div div nav .icono-spotify {
+  background-color: #81b71a;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+footer div div {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  font-style: oblique;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+footer div div p {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 10rem;
+}
+main .contenedor_main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .contenedor_main section {
+  width: 500px;
+  justify-content: center;
+}
+main .contenedor_main section div {
+  background-color: rgba(34, 34, 34, 0.87);
+  border-radius: 2rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+main .contenedor_main section h1 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+main .contenedor_main section div a img {
+  width: 400px;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+}
+main .contenedor_main section {
+  width: 500px;
+  justify-content: center;
+}
+main .contenedor_main section div {
+  background-color: rgba(34, 34, 34, 0.87);
+  border-radius: 2rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+main .contenedor_main section h2 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+main .contenedor_main section div a img {
+  width: 400px;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+}
+main section {
+  width: 500px;
+  justify-content: center;
+}
+main section div {
+  background-color: rgba(34, 34, 34, 0.87);
+  border-radius: 2rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+main section h3 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+main section div a img {
+  width: 400px;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+}
+main section p {
+  font-size: 1rem;
+  margin: 0rem 1.5rem 1rem 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
