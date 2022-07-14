@@ -1,0 +1,30 @@
+@import "../base/variables";
+@import "../base/extends";
+
+.contenedor_main_equipamiento {
+    padding-top: 10rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ 
+    .contenedor1, .contenedor2 {
+        @extend %containers_main;
+    }
+
+            .item_img_equipamiento {
+                border-radius: 3rem;
+                border: solid grey;
+                width: 400px;
+                 margin: 1rem 2rem
+                
+            }
+            .contenedor_main_equipamiento p{
+                display: flex;
+                @extend %flex_center;
+                background-color: rgba(34, 34, 34, 0.87);
+                border: solid grey;
+                border-radius: 3rem;
+                margin: 1px 2px;
+
+            }

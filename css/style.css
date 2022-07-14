@@ -5,16 +5,53 @@
 
 body {
   background-color: rgb(26, 26, 26);
-  color: antiquewhite;
-  font-size: large;
-  line-height: 1.5;
-  font-family: "FuenteHeader";
+  font-family: "Fuente";
   background-image: url(../multimedia/imagen-master1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.contenedor1, .contenedor2 {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+header, body {
+  color: antiquewhite;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.contenedor_main_equipamiento p {
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor1, .contenedor2 {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+header, body {
+  color: antiquewhite;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.contenedor_main_equipamiento p {
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Fuente";
+  src: url(../fuentes/Comfortaa-Bold.ttf);
+}
 header {
   background-color: rgb(27, 27, 27);
   padding: 1rem 0;
@@ -22,8 +59,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  font-family: "FuenteHeader";
-  font-size: 1.3rem;
+  font-family: "Fuente";
 }
 header div {
   display: flex;
@@ -60,6 +96,28 @@ header div nav ul li a:hover {
   color: black;
 }
 
+.contenedor1, .contenedor2 {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+body, header {
+  color: antiquewhite;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.contenedor_main_equipamiento p {
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Fuente";
+  src: url(../fuentes/Comfortaa-Bold.ttf);
+}
 footer {
   background-color: rgb(27, 27, 27);
   color: antiquewhite;
@@ -114,6 +172,28 @@ footer div div p {
   text-decoration: underline;
 }
 
+.contenedor1, .contenedor2 {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+body, header {
+  color: antiquewhite;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.contenedor_main_equipamiento p {
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Fuente";
+  src: url(../fuentes/Comfortaa-Bold.ttf);
+}
 main {
   padding-top: 10rem;
 }
@@ -197,6 +277,51 @@ main section div a img {
 main section p {
   font-size: 1rem;
   margin: 0rem 1.5rem 1rem 1.5rem;
+}
+
+.contenedor1, .contenedor2 {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+body, header {
+  color: antiquewhite;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.contenedor_main_equipamiento p {
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor_main_equipamiento {
+  padding-top: 10rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.item_img_equipamiento {
+  border-radius: 3rem;
+  border: solid grey;
+  width: 400px;
+  margin: 1rem 2rem;
+}
+
+.contenedor_main_equipamiento p {
+  display: flex;
+  background-color: rgba(34, 34, 34, 0.87);
+  border: solid grey;
+  border-radius: 3rem;
+  margin: 1px 2px;
+}
+
+@font-face {
+  font-family: "Fuente";
+  src: url(../fuentes/Comfortaa-Bold.ttf);
 }
 
 /*# sourceMappingURL=style.css.map */

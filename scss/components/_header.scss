@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/fonts";
 
 header {
     background-color: $bg-color-header;
@@ -7,8 +9,8 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    font-family: "FuenteHeader";
-    font-size: 1.3rem;
+    font-family: "Fuente";
+    @extend %font;
 
 
     div {

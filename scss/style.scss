@@ -5,10 +5,8 @@
 
 body {
     background-color: rgb(26, 26, 26);
-    color: antiquewhite;
-    font-size: large;
-    line-height: 1.5;
-    font-family: "FuenteHeader";
+    @extend %font;
+    font-family: "Fuente";
     background-image: url(../multimedia/imagen-master1.jpg);
     background-position: center;
     background-size: cover;
@@ -17,9 +15,11 @@ body {
 
 
 @import "base/variables";
+@import "base/extends";
 @import "components/header";
 @import "components/footer";
 @import "components/index";
-
+@import "components/equipamiento";
+@import "base/fonts"
 
 

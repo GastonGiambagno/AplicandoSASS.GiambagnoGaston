@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/fonts";
 
 main {
     padding-top: 10rem;
@@ -35,9 +37,6 @@ main {
 
                     }
                 }
-                p {
-
-                }
             }
         
             section {
@@ -66,9 +65,6 @@ main {
                                 border-radius: 1rem;
                             }
                         }
-                    }
-                    p {
-
                     }
                 }
             }
